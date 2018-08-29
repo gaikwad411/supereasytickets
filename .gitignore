@@ -4,3 +4,5 @@
 
 # SQLite DB
 set_site/db.sqlite3
+
+**/*/__pycache__/
