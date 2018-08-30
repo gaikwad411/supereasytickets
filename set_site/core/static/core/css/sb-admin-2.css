@@ -432,3 +432,7 @@ table.dataTable thead .sorting:after {
     border-left-width: 0;
   }
 }
+
+body.guest-user #page-wrapper{
+   margin-left:0;
+}
