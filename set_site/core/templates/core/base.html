@@ -52,6 +52,13 @@
             </div>
             <!-- /.navbar-header -->
 
+            {% if not request.user.is_authenticated %}
+                <ul class="nav navbar-top-links navbar-right">
+                    <li><a>Sign In</a></li>
+                    <li><a>Sign Up</a></li>
+                </ul>
+            {% endif %}
+
             {% if request.user.is_authenticated %}
 
             <ul class="nav navbar-top-links navbar-right">
